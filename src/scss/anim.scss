@@ -1,0 +1,74 @@
+@keyframes loader {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pokeballUpper {
+  0% {
+    top: 22%;
+    transform: translateX(50%) rotate(0);
+  }
+
+  100% {
+    top: 0.1%;
+    transform: translateX(50%) rotate(-10deg);
+  }
+}
+
+@keyframes pokeballUpperSP {
+  0% {
+    left: 30%;
+    transform: rotate(0);
+  }
+
+  100% {
+    left: 0;
+    transform: rotate(-70deg);
+  }
+}
+
+@keyframes pokeBallLower {
+  0% {
+    bottom: 25%;
+  }
+
+  100% {
+    bottom: 0.1%;
+  }
+}
+
+@keyframes pokeBallLowerSP {
+  0% {
+    right: 30%;
+    transform: rotate(0);
+  }
+
+  100% {
+    right: 0;
+    transform: rotate(-70deg);
+  }
+} 
+
+@keyframes pokemonShow {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes pokeball {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
